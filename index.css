@@ -21,6 +21,10 @@ a:active {
 	border-top: solid black 3px;
 }
 
+img {
+	padding-left: 5px;
+}
+
 h1 {
 	display: inline-block;
 	margin-left: auto;
@@ -33,6 +37,12 @@ h1 {
 h2 {
 	padding-top: 0.3em;
 	padding-bottom: 0.1em;
+	padding-left: 5px;
+}
+
+h3 {
+	padding-top: 0.3em;
+	padding-bottom: 01.em;
 	padding-left: 5px;
 }
 
