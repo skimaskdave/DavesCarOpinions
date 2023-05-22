@@ -21,6 +21,22 @@ a:active {
 	border-top: solid black 3px;
 }
 
+.myDiv {
+	display: none;
+	padding: 10px;
+	margin-top 20px;
+}
+
+.typeSelection {
+	padding-top: 5px;
+	padding-left: 5px;
+	margin: 0 auto;
+}
+
+#SelectType {
+	display: block;
+}
+
 img {
 	padding-left: 5px;
 }

@@ -3,23 +3,45 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="../index.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="bodytypes.js"></script>
 	<title>Dave's Car Opinions</title>
 </head>
 <body>
 	<div class="nav">
-		<a class="nav" href='index.html'>Home</a>
+		<a class="nav" href='../index.html'>Home</a>
 		<a class="nav" href="bodytypes.html">Types of Car</a>
-		<a class="nav" href="mycar.html">My Car</a>
+		<a class="nav" href="../mycar/mycar.html">My Car</a>
 	</div>
+
 	<div class="intro">
 		<h1>Car Body Types</h1>
 		<p>In this section I talk about car body types and my opinions on them.</p>
 	</div>
-	<div class="SUVs">
+
+	<div class="typeSelection">
+		<select id="myselection" onchange="selectType()">
+			<option value="SelectType">Select Type</option>
+			<option value="SUVs">SUVs</option>
+			<option value="Hatchbacks">Hatchbacks</option>
+			<option value="Estates">Estates</option>
+			<option value="Saloons">Saloons</option>
+			<option value="Convertibles">Convertibles</option>
+			<option value="Coupes">Coupes</option>
+			<option value="SportsCars">Sports Cars</option>
+			<option value="SuperHyperCars">Super & Hyper Cars</option>
+		</select>
+	</div>
+
+	<div id="SelectType" class="myDiv">
+		<h2>Please select a type of car.</h2>
+	</div>
+
+	<div id="SUVs" class="myDiv">
 		<h2>SUVs</h2>
 		<p>No one likes SUVs. Get over yourself. If you want something that can go off road get a 4x4 NOT an SUV. Grow up.</p>
-		<img src="images/vwid5.jpg" alt="VW ID.5, an SUV I despise." width="400" height="200">
+		<img src="../images/vwid5.jpg" alt="VW ID.5, an SUV I despise." width="400" height="200">
 		<p>Seriously. Who looks at this (VW ID.5) and goes yes... this is sporty, has lots of utility and is a great vehicle! <br> That's right, no one with an ounce of brain cells.</p>
 		<p>I hate SUVs a lot. I have many problems with them. So here is obviously the perfect place to talk about why SUVs are so stupid.</p>
 		<ol>
@@ -45,13 +67,42 @@
 		</ul>
 		<p>As a kid I often thought about in the future if I could make a car that was both capable of going off road and also being sporty. In my head it was possible, but in my new found wisdom (being 19) I realise that what I was thinking of was basically a coupe with air suspension that could raise it very high off the ground. That was my idea as a kid. The closest thing I have seen to what I dreamt of as a kid was the Ferrari Purosangue. The average Joe cannot afford that car, but it's nice to think that someone got close.</p>
 	</div>
-	<div class="Hatchback">
+
+	<div id="Hatchbacks" class="myDiv">
 		<h2>Hatchbacks</h2>
 		<p>In my opinion, hatchbacks are great. It's a shame that no one buys them anymore but when I think of a practical yet compact solution to everything, a hatchback is the one. Maybe I am biased because I drive one. But why are hatchbacks so great? Well, for starters you can get tiny 3 door ones like mine (Skoda Citigo), perfect for a first car in the UK, which still has a fair amount of space, and is very cheap and economical to run. You can also get slightly larger ones that fit the whole family in, providing you have a family of 5 or less people. The hatchback doesn't just come in a fairly boxy shape though, you could get a Citigo, Golf or Toyota Yaris, all which have a very traditional hatchback shape and are perfect for driving round town but can also do some motorway driving, or you could get something like a Honda Civic or the Skoda Octavia, both hatchbacks but they look to me more like saloons. I think one of the reasons hatchbacks are popular is the variety of tasks they can do. You can fit the whole family in them, and yet if you have the money to afford a performance one, you can also go quickly. They are little pocket rockets. The Hot Hatch is potentially the perfect car. Obviously you probably aren't going to tow very much using a hatchback, but they are ideal for most problems.</p>
 	</div>
-	<div class="Estate">
+
+	<div id="Estates" class="myDiv">
 		<h2>Estates</h2>
-		<p>Family car. Massive boot. Basically a long hatchback. Ideal if you own a dog. Would recommend.</p>
+		<p>I like estate cars a lot. Whoever came up with them is simply a genius. You take a regular saloon car, perfect size for the family, and attach the rear end of a hatchback to the boot. These things are the most spacious (bar vans) for carrying all the stuff you could possibly need. There is a reason they used to be so popular. Not to mention the <a href="https://www.google.com/search?q=g80+m3+touring&rlz=1C1YTUH_en-GBGB1018GB1018&sxsrf=APwXEdcGPvPpmxwPGmrQXJhUiXU2mCdl1g:1684780652156&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjA_q6CyYn_AhWRecAKHYfRA2MQ_AUoAXoECAEQAw&biw=1920&bih=961&dpr=1#imgrc=ktuQ3KkARfDv9M" target="_blank">new BMW M3</a> comes as an estate - something we have been waiting for for ages and it has turned up and wow. I love it!! Anyway this section is about estate cars, not just one M3 touring. As a student I don't particularly need an estate car, all my stuff fits in the back of the <a href="../mycar/mycar.html" target="_blank">Citigo</a>. But if I was to have a family, and a hatchback/saloon didn't suffice, I would get an estate.
+		Like hatchbacks, you can also get performance estate cars (like the M3 touring we talked about in the previous paragraph). These things really sell themselves to me, practical and fast, and because they have large boots they could even be a little tail happy? I am not sure having never driven one, but I would like to think if you had a rear wheel drive one it certainly could be.</p>
 	</div>
+
+	<div id="Saloons" class="myDiv">
+		<h2>Saloons</h2>
+		<p>These won't take long to talk about either. Ideal for a business men and their fellow associates, as well as carrying the family around on the weekend.</p>
+	</div>
+
+	<div id="Convertibles" class="myDiv">
+		<h2>Convertibles</h2>
+		<p>Epic. Mostly.</p>
+	</div>
+
+	<div id="Coupes" class="myDiv">
+		<h2>Coupes</h2>
+		<p>I wish I had one.</p>
+	</div>
+
+	<div id="SportsCars" class="myDiv">
+		<h2>Sports Cars</h2>
+		<p>Yes please.</p>
+	</div>
+
+	<div id="SuperHyperCars" class="myDiv">
+		<h2>Super & Hyper Cars</h2>
+		<p>Wow.</p>
+	</div>
+
 </body>
 </html>
