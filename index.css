@@ -24,7 +24,7 @@ a:active {
 .myDiv {
 	display: none;
 	padding: 10px;
-	margin-top 20px;
+	margin-top: 20px;
 }
 
 .typeSelection {
@@ -33,12 +33,44 @@ a:active {
 	margin: 0 auto;
 }
 
+.citigo_photos {
+	margin: auto;
+	aspect-ratio: 3/2;
+	width: 90%;
+	object-fit: contain;
+	padding-left: 10em;
+}
+
+.skodacitigoexample {
+	margin: auto;
+	object-fit: contain;
+	width: 30%;
+	padding-left: 1em;
+
+}
+
+.toyotagt86example {
+	margin: auto;
+	object-fit: contain;
+	width: 30%;
+	aspect-ratio: 3/2;
+	padding-left: 1em;
+}
+
+.daihatsucopenexample {
+	margin: auto;
+	object-fit: contain;
+	width: 30%;
+	aspect-ratio: 3/2;
+	padding-left: 1em;
+}
+
 #SelectType {
 	display: block;
 }
 
 img {
-	padding-left: 5px;
+	padding-left: 0.5em;
 }
 
 h1 {
@@ -47,25 +79,26 @@ h1 {
 	margin-right: auto;
 	padding-top: 0.3em;
 	padding-bottom: 0.1em;
-	padding-left: 5px;
+	padding-left: 0.3em;
 }
 
 h2 {
 	padding-top: 0.3em;
 	padding-bottom: 0.1em;
-	padding-left: 5px;
+	padding-left: 0.5em;
 }
 
 h3 {
 	padding-top: 0.3em;
 	padding-bottom: 01.em;
-	padding-left: 5px;
+	padding-left: 0.6em;
 }
 
 p {
 	padding-top: 0.3em;
-	padding-bottom: 0.1em;
-	padding-left: 5px;
+	padding-bottom: 0.3em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 * {
