@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../index.css">
+	<script type="text/javascript" src="filters.js"></script>
 	<title>Dave's Car Opinions</title>
 </head>
 <body>
@@ -13,12 +14,24 @@
 		<a class="nav" href="../newcars/newcars.html">Concept Cars</a>
 		<a class="nav" href="../mycar/mycar.html">My Car</a>
 		<a class="nav" href="../carsilike/carsilike.html">Cars I Like</a>
-		<a class="nav" href="../carsidislike/carsidislike.html">Cars I Dislike</a>
 		<a class="nav" href="../issueswiththeindustry/issueswiththeindustry.html">Issues with the Industry</a>
 	</div>
 	<div class="intro">
 		<h1>Cars I Like</h1>
 		<p>In this section I talk about cars that I like, and maybe I will highlight ones that I wish to purchase in the future.</p>
+	</div>
+	<div class="filters" id="myFilters">
+		<a href="#" onclick="closeFilters()" class="closebtn">&times;</a>
+		<fieldset>
+			<legend>Select Filters</legend>
+			<input type="checkbox" name="coupe" value="Coupe">Coupe<br>
+			<input type="checkbox" name="convertible" value="Convertible">Convertible<br>
+			<input type="checkbox" name="saloon" value="Saloon">Saloon<br>
+			<input type="submit" name="submit">
+		</fieldset>
+	</div>
+	<div id="main">
+		<button onclick="openFilters()" class="openbtn">&#9776; Open Filters</button>
 	</div>
 	<div class="citigo">
 		<h2>Skoda Citigo</h2>
