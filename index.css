@@ -12,14 +12,6 @@ a:active {
 	color: blue;
 }
 
-.filters {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-}
 
 .nav {
 	background-color: #95ede4;
@@ -29,6 +21,7 @@ a:active {
 
 .intro {
 	border-top: solid black 3px;
+	display: inline-block;
 }
 
 .myDiv {
@@ -41,38 +34,6 @@ a:active {
 	padding-top: 5px;
 	padding-left: 5px;
 	margin: 0 auto;
-}
-
-.citigo_photos {
-	margin: auto;
-	aspect-ratio: 3/2;
-	width: 90%;
-	object-fit: contain;
-	padding-left: 10em;
-}
-
-.skodacitigoexample {
-	margin: auto;
-	object-fit: contain;
-	width: 30%;
-	padding-left: 1em;
-
-}
-
-.toyotagt86example {
-	margin: auto;
-	object-fit: contain;
-	width: 30%;
-	aspect-ratio: 3/2;
-	padding-left: 1em;
-}
-
-.daihatsucopenexample {
-	margin: auto;
-	object-fit: contain;
-	width: 30%;
-	aspect-ratio: 3/2;
-	padding-left: 1em;
 }
 
 #SelectType {

@@ -1,0 +1,7 @@
+.citigo_photos {
+	margin: auto;
+	aspect-ratio: 3/2;
+	width: 90%;
+	object-fit: contain;
+	padding-left: 10em;
+}
