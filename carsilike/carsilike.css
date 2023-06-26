@@ -7,7 +7,8 @@
 	left: 0;
 	overflow-x: hidden;
 	padding-top: 0.6em;
-	transition: 0.5s;
+	transition: 0.5s ease-in-out;
+	border-right: 0;
 }
 
 .filters .closebtn {
@@ -32,7 +33,12 @@
 }
 
 #main {
-	transition: margin-left .5s;
+	transition: ease-in-out .5s;
+}
+
+main {
+	margin-left: 0em;
+	transition: .5s;
 }
 
 .skodacitigoexample {
